@@ -1,0 +1,15 @@
+SELECT stipend, studentName,Surname  FROM students.student where Stipend = "no";
+SELECT studentName, Surname from students.student where Surname like '%k';
+select studentName, Surname from students.student where surname like '%ka%';
+select * FROM students.exams_marks;
+SELECT EXAM_DATE FROM students.exams_marks WHERE Exam_date ='2023-02-11';
+SELECT EXAM_DATE FROM students.exams_marks WHERE Exam_date > 2023-02-13 AND Exam_date < 2023-02-16;
+select count(*) from students.student;
+select count(name_subject) from students.subjects;
+select count(name_subject) from students.subjects where Name_subject like "H%";
+select min(mark) from students.exams_marks;
+select max(mark) from students.exams_marks;
+select avg(mark) from students.exams_marks;
+select sum(mark) from students.exams_marks;
+select count(mark) as minCount from students.exams_marks where mark = 67; 
+select * from students.exams_marks;
