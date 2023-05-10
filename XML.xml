@@ -1,0 +1,26 @@
+<Europe>
+	<country>
+		<name>Austria</name>
+		<capital>Vienna</capital>
+		<population>8139</population>
+		<square>83,9</square>
+	</country>
+	<country>
+		<name>Belgium</name>
+		<capital>Brussels</capital>
+		<population>10300</population>
+		<square>30,5</square>
+	</country>
+	<country>
+		<name>Italy</name>
+		<capital>Rome</capital>
+		<population>57500</population>
+		<square>301,3</square>
+	</country>
+	<country>
+		<name>German</name>
+		<capital>Berlin</capital>
+		<population>82200</population>
+		<square>357</square>
+	</country>
+</Europe>
