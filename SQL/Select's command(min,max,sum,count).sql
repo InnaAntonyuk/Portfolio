@@ -1,0 +1,12 @@
+use hotelsdb;
+select count(*) from clients;
+SELECT min(startCounts) FROM hotels;
+SELECT min(hotelName) FROM hotels;
+SELECT max(comfortLevel) FROM rooms;
+select avg(clientNumber) from clients;
+SELECT SUM(clientNumber) from clients;
+SELECT hotelID, count(hotelID) from rooms where hotelID = 1;
+SELECT comfortLevel, count(comfortLevel) as countRooms FROM ROOMS where comfortLevel = "normal" and hotelID = 3; 
+select avg(salary) from clients;
+select max(salary) from clients;
+select min(salary) from clients;
